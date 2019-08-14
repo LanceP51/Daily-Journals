@@ -1,0 +1,9 @@
+
+.formBody{
+    background-color: burlywood;
+    border: 2px solid darkolivegreen;
+    border-radius: 2em;
+    margin:7vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}

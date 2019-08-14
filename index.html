@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Journal</title>
+    <link rel="stylesheet" href="styles/journal.css">
+</head>
+<body>
+    <div class="formBody">
+    <h1>Daily Journal</h1>
+    <form action="">
+        <fieldset>
+        <label for="journalDate">Date of Entry</label>
+        <input type="date" name="journalDate" id="journalDate"><br>
+        <br>
+        <label for="conceptsCovered">Concepts Covered</label><br>
+        <textarea name="Concepts Covered" id="conceptsCovered" cols="45" rows="3"></textarea><br></br.>
+        <br>
+        <label for="journalEntry">Journal Entry</label><br>
+        <textarea name="Journal Entry" id="journalEntry" cols="45" rows="7"></textarea><br>
+        <br>
+        <label for="moodForTheDay">Mood for the Day</label>
+        <select name="Mood for the Day" id="moodForTheDay">
+                <option value="Successful">Successful</option>
+                <option value="Interested">Interested</option>
+                <option value="Fair">Fair</option>
+                <option value="Nothing">...Nothing...</option>
+                <option value="Apathetic">Apathetic</option>
+                <option value="Drained">Drained</option>
+                <option value="Discouraged">Discouraged</option>
+                <option value="Iritated">Discouraged</option>
+                <option value="I'm done..">Discouraged</option>
+        </select><br>
+        <br>
+        <button type="button" id="sumbit">Record Journal Entry</button>
+        </fieldset>
+    </form>
+
+    
+    <option value="Record Journal Entry"></option>
+    </div>
+    <script src="scripts/journal.js"></script>
+</body>
+</html>
